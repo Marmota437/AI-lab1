@@ -4,6 +4,10 @@ body {
     color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2021/07/09/15/42/eau-de-toilette-6399434_960_720.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header, footer {
@@ -27,6 +31,19 @@ h3 {
     color: #c9a7ff;
     margin-top: 1rem;
 }
+
+p, ul {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #c49bff;
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 900px;
+}
+
+footer > p, header > p {
+    margin: 0 auto;
+}
+
 
 ul {
     list-style-type: square;
